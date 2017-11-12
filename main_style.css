@@ -40,14 +40,12 @@ body {
 
 ul.topnav {
     list-style-type: none;
-   padding-top: 2%;
     margin-top: 15%;
     padding: 0;
     width: 13%;
     margin-left: 2%;
 }
 ul.topnav li {
-
     float: right;
     text-align: right;
     margin-bottom: 3%;

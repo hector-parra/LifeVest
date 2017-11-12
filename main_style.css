@@ -150,6 +150,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
     color: #12387F;
     padding: 4%;
     font-size: 1em;
+    text-align: center;
     }
 
 }
@@ -173,11 +174,12 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
         margin-bottom: auto;
     }
     #intro {
-    background-color: white;
-    margin: 5%;
-    color: #12387F;
-    padding: 4%;
-    font-size: 1.1em;
+        background-color: white;
+        margin: 5%;
+        color: #12387F;
+        padding: 4%;
+        font-size: 1.1em;
+        text-align: center;
     }
 }
 @media only screen and (max-width : 1050px) and (min-width : 651px) {
@@ -200,11 +202,12 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
         margin-bottom: auto;
     }
     #intro {
-    background-color: white;
-    margin: 7%;
-    color: #12387F;
-    padding: 5%;
-    font-size: 1.2em;
+        background-color: white;
+        margin: 7%;
+        color: #12387F;
+        padding: 5%;
+        font-size: 1.2em;
+        text-align: center;
     }
 }
 @media only screen and (min-width : 1051px) {
@@ -238,10 +241,11 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
         margin-bottom: auto;
     }
     #intro {
-    background-color: white;
-    margin: 7%;
-    color: #12387F;
-    padding: 5%;
-    font-size: 1.2em;
+        background-color: white;
+        margin: 7%;
+        color: #12387F;
+        padding: 5%;
+        font-size: 1.2em;
+        text-align: center;
     }
 }

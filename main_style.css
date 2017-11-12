@@ -74,7 +74,7 @@ ul.topnav li.icon {
     top: 0;
   }
    ul.topnav.responsive li {
-    float: none;
+    float: right;
     display: inline;
   }
   ul.topnav.responsive li a {

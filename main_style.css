@@ -33,14 +33,15 @@ ul.topnav {
     margin-top: 15%;
     padding: 0;
     width: 3%;
-    background-color: transparent;
+    background-color: black;
 }
 ul.topnav li {
-    float: left
+    float: left;
+    text-align: right;
 }
 ul.topnav li a {
     display: inline-block;
-    color: #12387f;
+    color: white;
     text-align: right;
     padding: 30px 26px;
     text-decoration: none;

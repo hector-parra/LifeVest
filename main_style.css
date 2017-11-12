@@ -27,7 +27,7 @@ ul.topnav li {
     float: left
 }
 ul.topnav li a {
-    display: inline-block;
+    display: block;
     color: #12387f;
     text-align: center;
     padding: 14px 16px;

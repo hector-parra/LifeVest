@@ -38,6 +38,7 @@ ul.topnav {
 ul.topnav li {
     float: right;
     text-align: right;
+    margin-left: 1%;
 }
 ul.topnav li a {
     display: inline-block;

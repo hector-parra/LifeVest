@@ -19,6 +19,15 @@ body {
 #purple{
     background-color: mediumpurple;
 }
+#blue {
+    background-color: cornflowerblue;
+}
+#red {
+    background-color: red;
+}
+#orange {
+    background-color: peachpuff;
+}
 ul.topnav {
     list-style-type: none;
     margin-top: 15%;
@@ -32,7 +41,7 @@ ul.topnav li {
 ul.topnav li a {
     display: inline-block;
     color: #12387f;
-    text-align: center;
+    text-align: right;
     padding: 8px 16px;
     text-decoration: none;
     transition: 0.3s;

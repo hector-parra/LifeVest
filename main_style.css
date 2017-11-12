@@ -79,7 +79,7 @@ ul.topnav li.icon {
   }
   ul.topnav.responsive li a {
     display: block;
-    text-align: left;
+    text-align: right;
   }
 }
 h2 {

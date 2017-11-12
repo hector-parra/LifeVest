@@ -51,7 +51,7 @@ ul.topnav li.icon {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;
-    display: inline-block;
+    display: block;
   }
 }
 @media screen and (max-width:680px) {
@@ -63,7 +63,7 @@ ul.topnav li.icon {
   }
    ul.topnav.responsive li {
     float: none;
-    display: inline;
+    display: block;
   }
   ul.topnav.responsive li a {
     display: block;

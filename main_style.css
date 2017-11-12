@@ -34,10 +34,11 @@ ul.topnav {
     margin-top: 15%;
     padding: 0;
     width: 3%;
+
 }
 ul.topnav li {
-    float: right;
-    width: 10%;
+    float: left;
+    text-align: right;
 }
 ul.topnav li a {
     display: inline-block;

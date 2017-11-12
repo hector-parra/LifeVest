@@ -33,12 +33,11 @@ ul.topnav {
     list-style-type: none;
     margin-top: 15%;
     padding: 0;
-    width: 3%;
+    width: 10%;
 }
 ul.topnav li {
     float: right;
     text-align: right;
-    margin-left: 1%;
 }
 ul.topnav li a {
     display: inline-block;

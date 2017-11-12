@@ -49,6 +49,7 @@ ul.topnav li {
     float: right;
     text-align: right;
     margin-bottom: 3%;
+    margin-left: 2%;
 }
 ul.topnav li a {
     display: inline-block;

@@ -28,9 +28,8 @@ body {
 #orange {
     background-color: peachpuff;
 }
-ul {
+#mytopnav {
     background-color:black;
-    width:4%;
 }
 ul.topnav {
     list-style-type: none;

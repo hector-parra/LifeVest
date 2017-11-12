@@ -16,6 +16,9 @@ body {
     background-size: cover;
     padding: 0;
 }
+#content {
+    background-color: black;
+}
 #purple{
     background-color: mediumpurple;
 }

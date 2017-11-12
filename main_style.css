@@ -37,7 +37,7 @@ ul.topnav {
 }
 ul.topnav li {
     float: left;
-    text-align: right;
+    align-items: right;
     width: 10%;
 }
 ul.topnav li a {

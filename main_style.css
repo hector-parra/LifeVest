@@ -16,9 +16,12 @@ body {
     background-size: cover;
     padding: 0;
 }
+#purple{
+    background-color: mediumpurple;
+}
 ul.topnav {
     list-style-type: none;
-    margin-top: 30%;
+    margin-top: 15%;
     padding: 0;
     width: 3%;
     background-color: transparent;

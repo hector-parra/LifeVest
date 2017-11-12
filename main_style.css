@@ -46,13 +46,13 @@ ul.topnav {
     width: 13%;
     margin-left: 2%;
 }
-    ul.topnav li {
-        border-radius: 15px 0 0 15px;
-        float: right;
-        text-align: right;
-        margin-bottom: 3%;
-        margin-left: 2%;
-    }
+ul.topnav li {
+
+    float: right;
+    text-align: right;
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
 ul.topnav li a {
     display: inline-block;
     color: white;

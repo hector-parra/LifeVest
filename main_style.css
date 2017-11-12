@@ -1,0 +1,247 @@
+@font-face{
+    font-family: Xolonium; src: url('fonts/Xolonium-Regular.otf');
+}
+body {
+    height: auto;
+	width: 100%;
+    margin: 0;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    font-family: Xolonium;
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+ul.topnav li {
+    float: left
+}
+ul.topnav li a {
+    display: inline-block;
+    color: #12387f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    margin-right: 5%;
+}
+ul.topnav li a:hover {
+    background-color:transparent;
+    color: #12387f;
+}
+ul.topnav li a.active {
+    background-color: transparent;
+    color: #12387f;
+}
+ul.topnav li.icon {
+    display: none;
+}
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+   ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+h2 {
+    color: #434343;
+    text-align: center;
+}
+footer {
+    color: #12387F;
+    /*border: .05em solid white;*/
+    bottom: 0;
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 0%;
+    height: auto;
+    margin-top: 4%;
+    font-size: 17px;
+}
+#request {
+    background-color: #1d5bcc;
+    color: #434343;
+    padding: 1%;
+    border: 2 em solid #12387F;
+}
+.gallery {
+   overflow: hidden;
+   margin: 10px;
+}
+.box {
+   float: left;
+   position: relative;
+   width: 20%;
+   height: auto;
+}
+.facebook, .twitter {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.boxInner {
+   position: absolute;
+   left: 10px;
+   right: 10px;
+   top: 10px;
+   bottom: 10px;
+   overflow: hidden;
+}
+.boxInner img {
+   width: 100%;
+}
+body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
+   margin-bottom: 0;
+}
+@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   .box{
+      width: 100%;
+      padding-bottom: 100%;
+    }
+      .facebook, .twitter {
+       width: 94%;
+       margin: 3%;
+    }
+   img.logo {
+        display: block;
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: auto;
+    }
+    #intro {
+    background-color: white;
+    margin: 5%;
+    color: #12387F;
+    padding: 4%;
+    font-size: 1em;
+    }
+
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   .box{
+      width: 50%;
+      padding-bottom: 50%;
+    }    
+    .facebook, .twitter {
+       width: 94%;
+       margin: 3%;
+   }
+   img.logo {
+        display: block;
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: auto;
+    }
+    #intro {
+    background-color: white;
+    margin: 5%;
+    color: #12387F;
+    padding: 4%;
+    font-size: 1.1em;
+    }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   .box, {
+      width: 33.3%;
+      padding-bottom: 33.3%;
+   }
+   .facebook, .twitter{
+       width: 94%;
+       margin: 3%;
+   }
+   img.logo {
+        display: block;
+        width: 70%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        margin-bottom: auto;
+    }
+    #intro {
+    background-color: white;
+    margin: 7%;
+    color: #12387F;
+    padding: 5%;
+    font-size: 1.2em;
+    }
+}
+@media only screen and (min-width : 1051px) {
+   .box {
+      width: 25%;
+      padding-bottom: 25%;
+   }
+      .socialmedia {
+          width: 100%;
+          background-color: #434343;
+          border: 2% solid #434343;
+
+      }
+      .twitter{
+          width: 44%;
+          margin: 3%;
+          float: left;
+   }
+   .facebook{
+       width: 500px;
+       margin: 3%;
+       float: left;
+   }
+   img.logo {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: auto;
+    }
+    #intro {
+    background-color: white;
+    margin: 7%;
+    color: #12387F;
+    padding: 5%;
+    font-size: 1.2em;
+    }
+}

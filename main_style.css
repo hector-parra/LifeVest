@@ -31,12 +31,15 @@ body {
 }
 #blue {
     background-color: cornflowerblue;
+    border-radius: 15px 0 0 15px;
 }
 #red {
     background-color: red;
+    border-radius: 15px 0 0 15px;
 }
 #orange {
     background-color: peachpuff;
+    border-radius: 15px 0 0 15px;
 }
 
 ul.topnav {
@@ -70,7 +73,7 @@ ul.topnav li a:hover {
 }
 ul.topnav li a.active {
     background-color: transparent;
-    color: #12387f;
+    color: white;
 }
 ul.topnav li.icon {
     display: none;

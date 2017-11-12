@@ -34,10 +34,9 @@ ul.topnav {
     margin-top: 15%;
     padding: 0;
     width: 3%;
-
 }
 ul.topnav li {
-    float: left;
+    float: right;
     text-align: right;
 }
 ul.topnav li a {

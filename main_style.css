@@ -17,8 +17,10 @@ body {
     padding: 0;
 }
 #content {
-    background-color: black;
-    margin-left: 14%;
+    background-color: tan;
+    margin-left: 16%;
+    margin-right: 2%;
+
 
 }
 #purple{

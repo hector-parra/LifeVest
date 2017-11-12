@@ -36,8 +36,7 @@ ul.topnav {
     width: 3%;
 }
 ul.topnav li {
-    float: left;
-    align-items: right;
+    float: right;
     width: 10%;
 }
 ul.topnav li a {

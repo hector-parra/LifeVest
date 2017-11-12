@@ -30,6 +30,8 @@ body {
 }
 #mytopnav {
     background-color:black;
+    width: 10%;
+    height: 100%;
 }
 ul.topnav {
     list-style-type: none;
